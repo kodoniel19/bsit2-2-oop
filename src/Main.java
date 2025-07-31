@@ -60,5 +60,6 @@ public class Main {
         System.out.println("Average Score: " + averageScore);
         System.out.println("Remarks: " + remarks);
 
+        input.close();
     }
 }
