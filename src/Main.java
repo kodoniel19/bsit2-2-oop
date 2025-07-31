@@ -56,7 +56,7 @@ public class Main {
         else {
             remarks = "FAILED";
         }
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("Average Score: " + averageScore);
         System.out.println("Remarks: " + remarks);
 
