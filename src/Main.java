@@ -22,7 +22,7 @@ public class Main {
         System.out.println("");
         System.out.println("STUDENT INFORMATION");
         System.out.println("Student ID: " + studentID);
-        System.out.println("Name: " + firstName + "" + lastName);
+        System.out.println("Student name: " + firstName + "" + lastName);
         System.out.println("Course: " + course);
         System.out.println("Section: " + section);
 
