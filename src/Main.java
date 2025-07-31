@@ -19,14 +19,14 @@ public class Main {
         System.out.println("Enter your section: ");
         String section = input.nextLine();
 
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("STUDENT INFORMATION");
         System.out.println("Student ID: " + studentID);
-        System.out.println("Student name: " + firstName + "" + lastName);
+        System.out.println("Student name: " + firstName + " " + lastName);
         System.out.println("Course: " + course);
         System.out.println("Section: " + section);
 
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("Enter your midterm exam score: ");
         int midtermScore = input.nextInt();
 
@@ -39,7 +39,7 @@ public class Main {
         System.out.println("Enter your assignment score: ");
         int assignmentScore = input.nextInt();
 
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("STUDENT SCORE");
         System.out.println("Midterm Exam Score: " + midtermScore);
         System.out.println("Final Exam Score: " + finalScore);
