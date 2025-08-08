@@ -59,7 +59,7 @@ public class Student {
             System.out.println("Status: PASSING");
         }
         else {
-            System.out.println("Status: FAILED");
+            System.out.println("Status: FAILING");
         }
         System.out.println(" ");
     }
