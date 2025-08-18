@@ -1,7 +1,11 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        GradeCalculator calculator = new GradeCalculator();
+        double average = calculator.calculateAverage(85.5, 92.0, 78.5, 90.0);
+        String letterGrade = calculator.getLetterGrade(average);
+
+        calculator.displayResult("John Smith", average);
+        calculator.displayResult("John Smith", average, letterGrade);
     }
 }
