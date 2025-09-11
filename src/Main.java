@@ -11,20 +11,20 @@ public class Main {
         System.out.println("=== Employee Details ===");
         manager.displayInfo();
         manager.work();
-        System.out.println("Monthly Salary: $" + manager.calculateSalary() + ".0");
+        System.out.println("Monthly Salary: $" + manager.calculateSalary());
 
         System.out.println();
 
         System.out.println("=== Employee Details ===");
         developer.displayInfo();
         developer.work();
-        System.out.println("Monthly Salary: $" + developer.calculateSalary() + ".0");
+        System.out.println("Monthly Salary: $" + developer.calculateSalary());
 
         System.out.println();
 
         System.out.println("=== Employee Details ===");
         intern.displayInfo();
         intern.work();
-        System.out.println("Monthly Salary: $" + intern.calculateSalary() + ".0");
+        System.out.println("Monthly Salary: $" + intern.calculateSalary());
     }
 }
