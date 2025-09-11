@@ -23,7 +23,7 @@ public class Manager extends Employee {
     @Override
     public void displayInfo() {
         super.displayInfo();
-        System.out.println("Bonus: $" + bonus + ".0");
+        System.out.println("Bonus: $" + bonus);
         System.out.println("Team Size: " + teamSize + " employees");
     }
 }
