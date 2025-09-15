@@ -1,3 +1,4 @@
+public class Main {
     public static void main(String[] args) {
         PetService service = new PetService();
 
@@ -33,3 +34,4 @@
         tDog.performTrick();
         tBird.performTrick();
     }
+}
