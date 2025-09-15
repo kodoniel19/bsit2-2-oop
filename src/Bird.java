@@ -6,5 +6,6 @@ class Bird extends Pet {
     @Override
     public void makeSound() {
         System.out.println(name + " says: Tweet! Tweet!");
+        System.out.println(" ");
     }
 }
